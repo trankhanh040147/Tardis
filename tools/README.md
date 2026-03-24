@@ -18,3 +18,13 @@ This folder contains deterministic scripts used by workflows.
 - Return machine-readable output when possible.
 
 Use `tools/_tool_template.py` as a starting point for new scripts.
+
+## TARDIS Core Tools
+
+- `init_db.py` - initializes SQLite schema and seed concepts.
+- `bkt_engine.py` - updates mastery and logs execution events.
+- `scheduler.py` - ranks next concept candidates for review.
+- `sandbox_manager.py` - provisions and validates broken sandboxes.
+- `tree_view.py` - prints an ASCII mastery tree.
+- `markdown_exporter.py` - exports SQLite state to markdown files.
+- `tardis_cli.py` - command router for drill/sandbox/tree/export flows.

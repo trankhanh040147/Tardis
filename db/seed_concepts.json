@@ -1,0 +1,43 @@
+{
+  "concepts": [
+    {
+      "node_id": "backend.kafka.consumer_groups",
+      "concept_name": "Kafka Consumer Groups",
+      "category": "backend"
+    },
+    {
+      "node_id": "backend.kafka.offset_management",
+      "concept_name": "Kafka Offset Management",
+      "category": "backend"
+    },
+    {
+      "node_id": "backend.concurrency.race_conditions",
+      "concept_name": "Race Conditions",
+      "category": "backend"
+    },
+    {
+      "node_id": "backend.concurrency.mutexes",
+      "concept_name": "Mutexes and Locking Strategies",
+      "category": "backend"
+    },
+    {
+      "node_id": "systems.distributed_consensus",
+      "concept_name": "Distributed Consensus Basics",
+      "category": "systems"
+    }
+  ],
+  "edges": [
+    {
+      "parent_node_id": "systems.distributed_consensus",
+      "child_node_id": "backend.kafka.consumer_groups"
+    },
+    {
+      "parent_node_id": "backend.kafka.consumer_groups",
+      "child_node_id": "backend.kafka.offset_management"
+    },
+    {
+      "parent_node_id": "backend.concurrency.mutexes",
+      "child_node_id": "backend.concurrency.race_conditions"
+    }
+  ]
+}

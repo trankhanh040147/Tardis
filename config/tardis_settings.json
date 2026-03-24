@@ -1,0 +1,25 @@
+{
+  "database_path": "db/tardis.sqlite3",
+  "review": {
+    "hard_interval_minutes": 30,
+    "normal_interval_days": 2,
+    "easy_interval_days": 5
+  },
+  "misconception": {
+    "max_attempts_without_success": 3,
+    "slow_resolution_seconds": 1200
+  },
+  "bkt_defaults": {
+    "p_known": 0.15,
+    "p_learn": 0.1,
+    "p_guess": 0.2,
+    "p_slip": 0.1
+  },
+  "sandbox": {
+    "base_tmp_dir": ".tmp/sandboxes",
+    "default_fixture": "python_race_condition"
+  },
+  "export": {
+    "vault_dir": ".tmp/obsidian-vault"
+  }
+}

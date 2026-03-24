@@ -12,3 +12,10 @@ This folder contains SOP-style markdown instructions for agents.
 - Edge cases: known failure modes and recovery path.
 
 Use `workflows/_workflow_template.md` to create new workflows.
+
+## TARDIS Workflow Set
+
+- `interview_simulation.md` - SOP for conceptual `/drill` sessions.
+- `execution_loop.md` - SOP for tactical `/sandbox` repair loops.
+- `tree_view.md` - SOP for `/tree` rendering and triage.
+- `export_state.md` - SOP for `/export` markdown exhaust.
