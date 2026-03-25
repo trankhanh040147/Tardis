@@ -19,6 +19,7 @@ This repository now includes a local-first TARDIS scaffold with SQLite as the pr
    - `python tools/tardis_cli.py export`
 4. Read architecture:
    - `docs/tardis_master_architecture.md`
+   - `docs/agent_workflow_manual.md`
 
 ## Project Setup
 
